@@ -310,7 +310,7 @@ x = {
     "（使用 <a href='https://pieroxy.net/blog/pages/lz-string/index.html'>LZ-String</a> 算法）。" +
     "这样一方面可以避免原来的明文 JSON 数据干扰 Obsidian 的文本搜索结果，" +
     "另一方面减小了绘图文件的体积。<br>" +
-    "当您通过功能区按钮或命令将绘图切换成 Markdown 模式时，" +
+    "当您通过功能区按钮或命令将绘图切换至 Markdown 模式时，" +
     "数据将被解码回 JSON 格式以便阅读和编辑；" +
     "而当您切换回 Excalidraw 模式时，数据就会被再次编码。<br>" +
     "开启此项后，对于之前已存在但未压缩的绘图文件，" +
@@ -408,8 +408,8 @@ FILENAME_HEAD: "文件名",
   SHOW_DRAWING_OR_MD_IN_HOVER_PREVIEW_NAME: "鼠标悬停预览时 Excalidraw 将渲染为图像",
   SHOW_DRAWING_OR_MD_IN_HOVER_PREVIEW_DESC:
     "…即使文件具有 <code>excalidraw-open-md: true</code> frontmatter 属性。<br>" +
-    "当此设置关闭且设置了默认打开为 Markdown 时，悬停预览将显示 Markdown 模式的绘图。" +
-    "",
+    "当此设置关闭且设置了默认打开为 Markdown 时，悬停预览将显示 Markdown 模式的绘图。<br>" +
+    "注意：<b>excalidraw-open-md</b> 不同于 <b>excalidraw-embed-md</b>。如果 <b>excalidraw-embed-md</b> 设置为 true，则悬停预览始终显示 Markdown 模式的绘图，不受此设置影响。要强制将嵌入到 Markdown 文档的绘图渲染为图像，请使用 <code>![[drawing#^as-image]]</code>。",
   SHOW_DRAWING_OR_MD_IN_READING_MODE_NAME: "Markdown 模式的 Excalidraw 在阅读模式将渲染为图像",
   SHOW_DRAWING_OR_MD_IN_READING_MODE_DESC:
     "当您在 Markdown Reading 模式（又名“阅读绘图的背景笔记”）时，Excalidraw 绘图是否渲染为图像。<br>" +
