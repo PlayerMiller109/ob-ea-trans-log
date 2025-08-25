@@ -1190,10 +1190,14 @@ x = {
   COMP_IMG_LaTeX: "LaTeX 公式",
   COMP_FRAME: "画框操作",
   COMP_FRAME_HINT: "切换标记画框。标记画框仅用于引导，用于定义幻灯片/打印区域/[[file#^frame=id]]，" +
-      "导出时会隐藏；也不会包含元素。通过上下文菜单显示/隐藏标记画框。",
+    "导出时会隐藏；也不会包含元素。通过上下文菜单显示/隐藏标记画框。",
 
   //CustomEmbeddable.tsx
   NOTICE_PDF_THEME: "已覆盖 PDF 主题。\n" +
     "通过文件的 'excalidraw-embeddable-theme' 笔记属性设置（将覆盖插件设置）。\n\n" +
     "值：dark/light/auto/default，表示深色、浅色、跟随 Excalidraw 或 Obsidian 主题。",
+
+  //EmbeddableActionsMenu.tsx
+  BOOKMARK_PAGE: "保存当前文档进度",
+  CAPTURE_PAGE: "截图当前页面",
 };
